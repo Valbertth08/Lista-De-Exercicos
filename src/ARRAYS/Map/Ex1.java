@@ -1,11 +1,11 @@
-package SET_MAP;
+package ARRAYS.Map;
 
 import java.util.*;
 
 public class Ex1 {
-   // Desenvolva um programa para gerenciar o estoque de uma loja. Utilize um mapa para representar os produtos, onde as chaves são os nomes dos
-   //produtos e os valores são as quantidades em estoque. Implemente métodos para adicionar produtos ao estoque,
-   //remover produtos, atualizar a quantidade de um produto e verificar a disponibilidade de um produto específico.
+    // Desenvolva um programa para gerenciar o estoque de uma loja. Utilize um mapa para representar os produtos, onde as chaves são os nomes dos
+    //produtos e os valores são as quantidades em estoque. Implemente métodos para adicionar produtos ao estoque,
+    //remover produtos, atualizar a quantidade de um produto e verificar a disponibilidade de um produto específico.
 
     public static void main(String[] args) {
         int opcao;
@@ -23,8 +23,8 @@ public class Ex1 {
                     AdicionarProdutos(estoque,sc);
                     break;
                 case 2:
-                     RemoverProduto(estoque,sc);
-                     break;
+                    RemoverProduto(estoque,sc);
+                    break;
                 case 3:
                     AtualizarEstoque(estoque,sc);
                     break;
@@ -154,7 +154,7 @@ public class Ex1 {
             System.out.println("-----------------------------------------------");
         }
 
-        }
+    }
     public static void VerificarEstoque(Map<Produto,Integer> estoque){
         System.out.println("PROTUDOS NO ESTOQUE: ");
 
@@ -166,7 +166,4 @@ public class Ex1 {
         }
         System.out.println();
     }
-
 }
-
-
