@@ -1,8 +1,6 @@
-package INTERFACES_FUNCIONAIS;
+package Interfaces_Funcionais;
 
-import java.io.FileOutputStream;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Ex1 {

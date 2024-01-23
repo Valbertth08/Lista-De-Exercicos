@@ -1,4 +1,4 @@
-package GENERICS;
+package Generics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,7 +19,7 @@ public class Ex5 {
         List<T> listaMesclada= new ArrayList<>();
         int j=0;
         int i;
-        int tamanho= Math.max(lista1.size(), lista2.size());
+        int tamanho= Math.max(lista1.size(), lista2.size());//retorna o tamanho da maior lista
 
        for (i=0; i<tamanho; i++){
            if (i < lista1.size()) {
